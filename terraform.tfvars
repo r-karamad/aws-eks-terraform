@@ -1,0 +1,10 @@
+region = "eu-central-1"
+vpc-name = "self-managed-k8s"
+vpc-primary-cidr = "10.201.0.0/16"
+cluster_version = "1.22"
+cluster_service_ipv4_cidr = "172.20.0.0/16"
+cluster_endpoint_public_access_cidrs = ["0.0.0.0/0"]
+cluster_name = "test-1"
+//public_worker = false
+//private_worker = true
+//single_az = false
